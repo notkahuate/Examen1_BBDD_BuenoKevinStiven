@@ -52,7 +52,7 @@ create table asignatura (
     id int primary key,
     nombre varchar(100),
     credito float,
-    tipo ENUM ('obligatoria', 'basica'),
+    tipo ENUM ('obligatoria', 'basica', 'optativa'),
     curso tinyint(3),
     cuartimestre tinyint(3),
     id_profesor int,
